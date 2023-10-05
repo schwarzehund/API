@@ -1,0 +1,30 @@
+
+
+Networking term	        Description	                                                    Restaurant analogy
+Client	                The requester. Ex: browser, web app, mobile app	                Customer
+API	                    Simplified interface for interacting with the backend          	Waiter
+Server	                The backend where the processing happens	                      Kitchen
+
+-----
+Hardware APIs
+Interface for software to talk to hardware.
+Example: How your phone's camera talks to the operating system. 
+
+Software Library APIs
+Interface for directly consuming code from another code base.
+Example: Using methods from a library you import into your application.
+
+Web APIs
+Interface for communicating across code bases over a network.
+Example: Fetching current stock prices from a finance API over the internet.
+
+------
+There is more than one way to build and consume APIs. Some architecture types you may come across are:
+
+REST (Representational State Transfer)
+GraphQL
+WebSockets
+webhooks
+SOAP (Simple Object Access Protocol)
+gRPC (Google Remote Procedure Call)
+MQTT (MQ Telemetry Transport)
