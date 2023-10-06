@@ -194,3 +194,23 @@ pm.collectionVariables.set("variableName", value)
 To get a collection variable use the .get() method and specify the name of the variable you want to retrieve:
 
 pm.collectionVariables.get("variableName")
+
+**Local variables**
+We can also store local variables inside our Test script using JavaScript. 
+
+There are two ways to define a variable in JavaScript: using the const or let keywords. const is for variables that won't change value, whereas let allows you to reassign the value later.
+
+// -- Defining variables with const --
+const myVar = "This variable can't be reassigned"
+console.log(myVar) // => This variable can't be reassigned
+
+// attempt to reassign the value of myVar
+myVar = "foo" 
+//=> [ERROR!] Uncaught TypeError: Assignment to constant variable.
+
+// -- Defining variables with let -- 
+let myVar2 = "I can change!"
+console.log(myVar2) // => I can change!
+
+myVar2 = "See, I changed!"
+console.log(myVar2) // => See, I changed!
